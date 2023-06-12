@@ -65,15 +65,34 @@ The most basic thing to remember is that the more Plex apps you have playing con
 
 # Plex
 
-Work In Progress
+[Installing Plex](https://support.plex.tv/articles/200288586-installation/)
+
+**Tips:**
+- Linux CLI command to download the .deb file: (replace download link with newest version)
+
+```bash
+wget https://downloads.plex.tv/plex-media-server-new/1.32.3.7192-7aa441827/debian/plexmediaserver_1.32.3.7192-7aa441827_i386.deb
+```
 
 # Sonarr
 
-Work In Progress
+[Installing Sonarr](https://sonarr.tv/#downloads-v3-linux)
 
 # Arr Software Suite
 
-Work In Progress
+[Install Arr Suite](https://wiki.servarr.com/install-script)
+
+## What is in the Suite?
+
+**Lidarr** - a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new albums from your favorite artists and will interface with clients and indexers to grab, sort, and rename them. It can also be configured to automatically upgrade the quality of existing files in the library when a better quality format becomes available.
+
+**Prowlarr** - an indexer manager/proxy built on the popular arr .net/reactjs base stack to integrate with your various PVR apps. Prowlarr supports management of both Torrent Trackers and Usenet Indexers.
+
+**Radarr** - a movie collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new movies and will interface with clients and indexers to grab, sort, and rename them.
+
+**Readarr** - a eBook/Audiobook collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new books and will interface with clients and indexers to grab, sort, and rename them.
+
+**Whisparr** - a XXX movie collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new movies from lists and will interface with clients and indexers to grab, sort, and rename them.
 
 # File Browser
 
