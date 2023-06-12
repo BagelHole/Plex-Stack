@@ -71,11 +71,7 @@ Work In Progress
 
 Work In Progress
 
-# Radarr
-
-Work In Progress
-
-# Readarr
+# Arr Software Suite
 
 Work In Progress
 
