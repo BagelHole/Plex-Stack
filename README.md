@@ -1,12 +1,12 @@
 # Plex Stack
 
-Automated Plex stack running on a ubuntu server machine. 
+**Goal:** A fully automated server that runs Plex. With the use of the all the components in this stack you will have a machine that will ingress torrents using Prowlarr to manage indexes, Sonarr & Radarr to send requested Movies/TV to qBitTorrent, and Plex to stream the media. File Browser will be used to easily manage files within Linux Distros. Mullvad is a VPN that helps keep your torrenting private, any VPN will do.
 
 **Guide** 
 
 - 🟢 Strongly Suggest
 - 🟡 Solid Option
-- 🟠 Would Advise Against
+- 🔴 Would Advise Against
 
 ## Components 
 
@@ -15,7 +15,7 @@ Automated Plex stack running on a ubuntu server machine.
 - Radarr
 - Prowlarr
 - Readarr
-- FileBrowser
+- File Browser
 - qBitTorrent
 - Mullvad
 
@@ -29,8 +29,8 @@ You can run this stack on most operating systems. Now, should you? I would highl
 - 🟢 Windows Server - whatever is current and you can get your hands on.
 - 🟡 Windows 10/11 - low technical skill users.
 - 🟡 MacOS - I could see a Mac Mini being strong here.
-- 🟠 Kubernetes Cluster - Only do this if you want the experience, I have heard of headaches from this.
-- 🟠 Your Daily Driver 
+- 🔴 Kubernetes Cluster - Only do this if you want the experience, I have heard of headaches from this.
+- 🔴 Your Daily Driver 
 
 # Hardware
 
@@ -51,7 +51,7 @@ The most basic thing to remember is that the more Plex apps you have playing con
 - If you’ll need to support more than one simultaneous transcode, you’ll need a more powerful processor.
 
 ## Hardware Options:
-- 🟢 Old Computer - if you have a leftover computer laying around this is usually the perfect use for them.
+- 🟢 Old Tower Computer - if you have a leftover computer laying around this is usually the perfect use for them.
 - 🟡 NAS - These can get pricey but they are purpose built to hold lots of data and they come with a CPU & RAM to get you started right away.
   - [Expensive but strong NAS](https://www.amazon.com/QNAP-TVS-672XT-Thunderbolt-10GbE-Slots/dp/B07JNLNHD1)
   - [More Affordable Option](https://www.amazon.com/TERRAMASTER-F2-223-2Bay-NAS-Storage/dp/B0BF4SWHQN/ref=sr_1_2?ascsubtag=wp-us-1367106051858228500-20&geniuslink=true&keywords=TerraMaster+F2-221+NAS&qid=1686596688&sr=8-2&ufe=app_do%3Aamzn1.fos.c3015c4a-46bb-44b9-81a4-dc28e6d374b3)
@@ -61,5 +61,32 @@ The most basic thing to remember is that the more Plex apps you have playing con
 - 🟡 Prebuilt Server - Could probably get your hands on a ~$500 prebuilt that has everything you need, probably just need more drives.
   - [Lenovo Tower Servers](https://www.lenovo.com/us/en/c/servers-storage/servers/towers/?orgRef=https%253A%252F%252Fwww.google.com%252F)
   - [Dell Poweredge](https://www.dell.com/en-us/shop/dell-poweredge-servers/sr/servers/tower?appliedRefinements=35986)
-- 🟠 High End PC - Don't waste your gaming PC resources on this stack, it is way overkill.
+- 🔴 High End PC - Don't waste your gaming PC resources on this stack, it is way overkill.
 
+# Plex
+
+Work In Progress
+
+# Sonarr
+
+Work In Progress
+
+# Radarr
+
+Work In Progress
+
+# Readarr
+
+Work In Progress
+
+# File Browser
+
+Work In Progress
+
+# qBitTorrent
+
+Work In Progress
+
+# Mullvad
+
+Work In Progress
