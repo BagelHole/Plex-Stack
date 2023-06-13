@@ -96,7 +96,9 @@ wget https://downloads.plex.tv/plex-media-server-new/1.32.3.7192-7aa441827/debia
 
 # File Browser
 
-Work In Progress
+[Install File Browser](https://filebrowser.org/installation)
+
+I would suggest getting this if you aren't a wizard with CLI commands and just want an easy way to move and rename files/folders.
 
 # qBitTorrent
 
