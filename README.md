@@ -1,6 +1,6 @@
 # Plex Stack
 
-**Goal:** A fully automated server that runs Plex. With the use of the all the components in this stack you will have a machine that will ingress torrents using Prowlarr to manage indexes, Sonarr & Radarr to send requested Movies/TV to qBitTorrent, and Plex to stream the media. File Browser will be used to easily manage files within Linux Distros. Mullvad is a VPN that helps keep your torrenting private, any VPN will do.
+**Goal:** A fully automated server that runs Plex. With the use of all the components in this stack, you will have a machine that will ingress torrents using Prowlarr to manage indexes, Sonarr & Radarr to send requested Movies/TV to qBitTorrent, and Plex to stream the media. File Browser will be used to easily manage files within Linux Distros. Mullvad is a VPN that helps keep your torrenting private, any VPN will do.
 
 **Guide** 
 
@@ -21,11 +21,11 @@
 
 # Server Operating System (OS)
 
-You can run this stack on most operating systems. Now, should you? I would highly suggest not running this stack on your main PC that you use every day. It might sound convenient, but it will heavily impact the performance of most normal computers purely from the increased amount of processing for all the downloads that could be ongoing. 
+You can run this stack on most operating systems. Now, should you? I would highly suggest not running this stack on the main PC that you use every day. It might sound convenient, but it will heavily impact the performance of most normal computers purely from the increased amount of processing for all the downloads that could be ongoing. 
 
 ## Operating System Options:
 
-- 🟢 Ubuntu Server or any Linux Distro - need to be familiar with linux, most NAS solutions run a version of a linux distro.
+- 🟢 Ubuntu Server or any Linux Distro - need to be familiar with Linux, most NAS solutions run a version of a Linux distro.
 - 🟢 Windows Server - whatever is current and you can get your hands on.
 - 🟡 Windows 10/11 - low technical skill users.
 - 🟡 MacOS - I could see a Mac Mini being strong here.
@@ -52,23 +52,23 @@ The most basic thing to remember is that the more Plex apps you have playing con
 
 ## Hardware Options:
 - 🟢 Old Tower Computer - if you have a leftover computer laying around this is usually the perfect use for them.
-- 🟡 NAS - These can get pricey but they are purpose built to hold lots of data and they come with a CPU & RAM to get you started right away.
+- 🟡 NAS - These can get pricey but they are purpose-built to hold lots of data and they come with a CPU & RAM to get you started right away.
   - [Expensive but strong NAS](https://www.amazon.com/QNAP-TVS-672XT-Thunderbolt-10GbE-Slots/dp/B07JNLNHD1)
   - [More Affordable Option](https://www.amazon.com/TERRAMASTER-F2-223-2Bay-NAS-Storage/dp/B0BF4SWHQN/ref=sr_1_2?ascsubtag=wp-us-1367106051858228500-20&geniuslink=true&keywords=TerraMaster+F2-221+NAS&qid=1686596688&sr=8-2&ufe=app_do%3Aamzn1.fos.c3015c4a-46bb-44b9-81a4-dc28e6d374b3)
   - [Another Affordable Option](https://www.amazon.com/Asustor-AS5202T-Inspired-Attached-Dual-Core/dp/B07PW9DV56?tag=pcguide-best-nas-for-plex-20)
-- 🟡 Mac Mini - Would easily be powerful enough but has no built in drive support so would need external drives.
+- 🟡 Mac Mini - Would easily be powerful enough but has no built-in drive support so would need external drives.
 - 🟡 DIY Build - Use [PC Part Picker](https://pcpartpicker.com/) and look around at builds or make your own.
 - 🟡 Prebuilt Server - Could probably get your hands on a ~$500 prebuilt that has everything you need, probably just need more drives.
   - [Lenovo Tower Servers](https://www.lenovo.com/us/en/c/servers-storage/servers/towers/?orgRef=https%253A%252F%252Fwww.google.com%252F)
   - [Dell Poweredge](https://www.dell.com/en-us/shop/dell-poweredge-servers/sr/servers/tower?appliedRefinements=35986)
-- 🔴 High End PC - Don't waste your gaming PC resources on this stack, it is way overkill.
+- 🔴 High-End PC - Don't waste your gaming PC resources on this stack, it is way overkill.
 
 # Plex
 
 [Installing Plex](https://support.plex.tv/articles/200288586-installation/)
 
 **Tips:**
-- Linux CLI command to download the .deb file: (replace download link with newest version)
+- Linux CLI command to download the .deb file: (replace download link with the newest version)
 
 ```bash
 wget https://downloads.plex.tv/plex-media-server-new/1.32.3.7192-7aa441827/debian/plexmediaserver_1.32.3.7192-7aa441827_i386.deb
@@ -84,13 +84,13 @@ wget https://downloads.plex.tv/plex-media-server-new/1.32.3.7192-7aa441827/debia
 
 ## What is in the Suite?
 
-**Lidarr** - a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new albums from your favorite artists and will interface with clients and indexers to grab, sort, and rename them. It can also be configured to automatically upgrade the quality of existing files in the library when a better quality format becomes available.
+**Lidarr** - a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new albums from your favorite artists and will interface with clients and indexers to grab, sort, and rename them. It can also be configured to automatically upgrade the quality of existing files in the library when a better-quality format becomes available.
 
-**Prowlarr** - an indexer manager/proxy built on the popular arr .net/reactjs base stack to integrate with your various PVR apps. Prowlarr supports management of both Torrent Trackers and Usenet Indexers.
+**Prowlarr** - an indexer manager/proxy built on the popular arr .net/reactjs base stack to integrate with your various PVR apps. Prowlarr supports the management of both Torrent Trackers and Usenet Indexers.
 
 **Radarr** - a movie collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new movies and will interface with clients and indexers to grab, sort, and rename them.
 
-**Readarr** - a eBook/Audiobook collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new books and will interface with clients and indexers to grab, sort, and rename them.
+**Readarr** - an eBook/Audiobook collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new books and will interface with clients and indexers to grab, sort, and rename them.
 
 **Whisparr** - a XXX movie collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new movies from lists and will interface with clients and indexers to grab, sort, and rename them.
 
@@ -102,7 +102,9 @@ I would suggest getting this if you aren't a wizard with CLI commands and just w
 
 # qBitTorrent
 
-Work In Progress
+[Install qBitTorrent-nox](https://lindevs.com/install-qbittorrent-nox-on-ubuntu)
+
+This has been my go-to torrenting client for years and the nox version allows you to manage the client over a web UI.
 
 # Mullvad
 
