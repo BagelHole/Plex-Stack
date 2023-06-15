@@ -108,4 +108,6 @@ This has been my go-to torrenting client for years and the nox version allows yo
 
 # Mullvad
 
-Work In Progress
+[Install Mullvad](https://mullvad.net/en/help/install-mullvad-app-linux/)
+
+Any VPN service will do, but Mullvad tends to be the people's choice if you want privacy.
