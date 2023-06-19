@@ -90,7 +90,7 @@ wget https://downloads.plex.tv/plex-media-server-new/1.32.3.7192-7aa441827/debia
 
 **Radarr** - a movie collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new movies and will interface with clients and indexers to grab, sort, and rename them.
 
-**Readarr** - an eBook/Audiobook collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new books and will interface with clients and indexers to grab, sort, and rename them.
+**Readarr** - an eBook and audiobook collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new books and will interface with clients and indexers to grab, sort, and rename them.
 
 **Whisparr** - a XXX movie collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new movies from lists and will interface with clients and indexers to grab, sort, and rename them.
 
